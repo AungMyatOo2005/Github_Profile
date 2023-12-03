@@ -8,7 +8,7 @@ async function getUser(user) {
   createUserCard(resData);
   getRepo(user);
 }
-getUser("Aung-Myat-Oo");
+getUser("AungMyatOo2005");
 async function getRepo(user) {
   const res = await fetch(APIURL + user + "/repos");
   const resData = await res.json();
