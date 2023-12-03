@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(42, 42, 114);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 20px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.search-user {
+  background-color: #4e288b;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+  color: white;
+}
+main {
+  border-radius: 20px;
+  background-color: #3b2066;
+  background-image: linear-gradient(315deg, #3b2066 0%, #4c11ac 74%);
+  padding: 40px 20px;
+  display: flex;
+  width: 600px;
+  gap: 40px;
+  color: white;
+  box-shadow: 0px 5px 10px rgba(154, 160, 185, 0.05),
+    0px 5px 40px rgba(166, 173, 201, 0.2);
+}
+main img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 10px solid #3c3c74;
+}
+main ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  gap: 20px;
+}
+main ul li {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+main ul li strong {
+  font-size: 0.8rem;
+}
+.repo{
+    background-color: #241142;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size:0.9rem;
+    text-decoration: none;
+}
