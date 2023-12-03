@@ -34,7 +34,6 @@ function addRepoCard(data) {
   const reposEl = document.getElementById("repos");
   data
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 10)
     .map((repoData) => {
       const repoEl = document.createElement("a");
       console.log("lol");
